@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $data = urlencode("Hi M/s New Fathima Timbers - Admin\n\nNew contact has submitted with the following information:\n\nName: $name\nEmail: $email\nPhone Number: $phone\nSubject : $subject\nMessage : $message\n\nGood luck!");
 
     // API URL
-    $apiUrl = "https://app.wapionline.com/api/send?number=917402182523&type=text&message=$data&instance_id=67BC1E10DCA69&access_token=67bc1b2308242";
+    $apiUrl = "https://mtechlivedemo.com/api/send?number=919677503332&type=text&message=$data&instance_id=6846B62860B93&access_token=6846b47c20fee";
 
     // Send request
     $response = file_get_contents($apiUrl);
